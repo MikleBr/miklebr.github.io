@@ -1,0 +1,143 @@
+.card {
+    padding: 25px;
+
+    width: calc(100% - 50px);
+    height: 280px;  
+
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+
+    &__img {
+        width: 330px;
+        height: 280px;
+
+        position: relative;
+
+        border-radius: 10px;
+
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+
+        &-link {
+            width: 330px;
+            height: 280px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            position: absolute;
+            top: 0;
+
+            background-color: rgba(0, 0, 0, 0.8);
+
+            opacity: 0;
+            pointer-events: none;
+
+            transition: all 0.2s ease-in;
+
+            a {
+                padding: 8px 12px;
+
+                border-radius: 24px;
+                border: 1px solid $color-primary-white;
+
+                @include typography($font-text, 18px, 500);
+                color: $color-primary-white;
+
+                transition: all 0.2s ease-in;
+
+                &:hover {
+                    background-color: $color-primary-white;
+                    color: #000000;
+                }
+            }
+        }
+
+        &:hover &-link {
+            opacity: 1;
+            pointer-events: all;
+        }
+    }
+
+    &__content {
+        margin: 0 0 0 25px;
+
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__title {
+        h2 {
+            @include typography($font-title, 34px, 500);
+            color: $color-primary-white;
+
+            text-transform: uppercase;
+        }
+
+        &-divider{
+            margin: 15px 0 0 0;
+            width: 100px;
+            height: 1px;
+
+            background-color: $color-primary-white;
+        }
+    }
+
+    &__description {
+        display: flex;
+        align-items: flex-start;
+
+        &-part {
+            margin: 0 35px 0 0;
+        }
+    }
+
+    &__sub-title {
+        p {
+            @include typography($font-title, 18px, 600);
+            color: $color-primary-white;
+        }
+    }
+
+    &__text {
+        margin: 20px 0 0 0;
+
+        li {
+            margin: 0 0 8px 0;
+
+            @include typography($font-text, 14px, 500);
+            color: $color-primary-white;
+        }
+    }
+
+    &__btns {
+        button {
+            width: 175px;
+            height: 48px;
+
+            @include typography($font-text, 16px, 500);
+            color: $color-primary-white;
+            background-color: #3bb8ab;
+
+            border-radius: 48px;
+            border: none;
+
+            transition: all .2s ease-in;
+
+            &:hover {
+                background-color: $color-primary-white;
+                color: $color-primary-blue;
+            }
+        }
+    }
+}

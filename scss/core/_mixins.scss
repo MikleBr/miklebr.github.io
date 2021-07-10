@@ -1,0 +1,18 @@
+// Миксин, добавляющий новый шрифт из папки fonts
+@mixin font-face($fontFamily, $fileName, $fontPath, $fontWeight, $fontStyle) {
+    @font-face {
+        font-family: "#{$fontFamily}";
+        src: url("../fonts/#{$fontPath}/#{$fileName}.ttf") format("woff");
+        font-weight: $fontWeight;
+        font-style: $fontStyle;
+    }
+}
+
+// Миксин для типографии
+@mixin typography($ffamily: unset, $fsize: unset, $fweight: unset) {
+    font: {
+        family: $ffamily;
+        size: $fsize;
+        weight: $fweight;
+    }
+}

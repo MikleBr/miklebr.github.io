@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Уютный</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/js/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/account-style.css">
+
+    <link rel="shortcut icon" href="/img/site-icon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="/js/script.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- header постоянно на странице-->
+
+    <header class="header" id="header">
+        <div class="header__container container">
+            <div class="header__logo logo">
+                <a href="/index.html"><img src="/img/logo.svg" alt="logo"></a>
+            </div>
+
+            <nav class="header__nav-bar nav-bar">
+                <div class="nav-bar__links">
+                    <a class="nav-bar__link" href="/journal.html">Журнал</a>
+                    <a class="nav-bar__link" href="#">Доставка и оплата</a>
+                    <a class="nav-bar__link" href="#">Пункт самовывоза</a>
+                </div>
+            </nav>
+
+            <div class="header__profile-info profile-info">
+                <div class="profile-info__img">
+                    <img src="/img/profile__img.jpg" width="26px" height="26px" alt="profile__photo">
+                </div>
+                <div class="profile-info__name">
+                    <p>Руслан</p>
+                </div>
+            </div>
+
+            <div class="header__market market">
+                <div class="market__icon">
+                    <img src="/img/market-icon.svg" alt="market-icon">
+                </div>
+                <div class="market__total">
+                    <p>0 руб.</p>
+                </div>
+            </div>
+
+            <div class="header__contacts">
+                <div class="header-nav__phone-icon">
+                    <a href="tel:+89884443322"><img src="/img/phone-icon.svg" alt=""></a>
+                </div>
+                <div class="header__phone-num">
+                    <a href="tel:+89884443322">8 (988) 444-33-22</a>
+                </div>
+            </div>
+            <div class="header__mobile-block">
+
+                <div class="header__mobile-favorite">
+                    <a href="#"><img src="/img/favorite-icon.svg" alt=""></a>
+                </div>
+
+                <div class="header__modile-prifile">
+                    <a href="#"><img src="/img/profile-icon.svg" alt=""></a>
+                </div>
+                <div class="header__mobile-market">
+                    <a href="#"><img src="/img/market-icon--mobile.svg" alt="market-icon"></a>
+                </div>
+
+                <div class="header__burger burger">
+                    <input class="burger__checkbox" type="checkbox" />
+                    <span class="top-stick"></span>
+                    <span class="middle-stick"></span>
+                    <span class="bottom-stick"></span>
+
+                    <div class="burger-nav">
+                        <div class="burger-nav__container">
+                            <nav class="burger-nav__nav-bar nav-bar">
+                                <a class="nav-bar__link" href="/journal.html">Журнал</a>
+                                <a class="nav-bar__link" href="#">Доставка и оплата</a>
+                                <a class="nav-bar__link" href="#">Пункт самовывоза</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- header end-->
+
+    <div class="search-block">
+        <form action="#" class="search-block__container">
+            <input type="search" name="" id="" placeholder="Поиск товаров">
+            <button type="submit">Найти</button>
+        </form>
+    </div>
+
+    <main class="profile-content">
+        <!-- content here -->
+
+        <div class="shopping-cart">
+            <div class="shopping-cart__container">
+                <div class="shopping-cart__empty-text">
+                    <p>Ваша карзина пока пуста. Найдите товар в <a href="/journal.html">нашем каталоге</a></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="advert-block">
+            <div class="advert-block__title section-title">
+                <h2>Вам могут быть интересны</h2>
+            </div>
+
+            <!-- Здесь карусель товаров-->
+
+            <ul class="advert-block__product-block product-carousel owl-carousel">
+
+                <li class="advert-block__product product">
+                    <div class="product__image">
+                        <div class="product__discount">
+                            <p>-27%</p>
+                        </div>
+                        <img src="/img/product-demo.jpg" alt="">
+                    </div>
+                    <div class="product__title">
+                        <h3>Кухня Виктория</h3>
+                    </div>
+                    <div class="product__text">
+                        <p>Фасады кухни “Виктория” сделаны
+                            из МДФ и покрыты эмалью
+                            высокого качества.</p>
+                    </div>
+                    <div class="product__buy-block">
+                        <div class="product__price">
+                            <div class="product__price-discount">
+                                <p>80000 руб</p>
+                            </div>
+
+                            <h4>68000 руб</h4>
+                        </div>
+                        <div class="product__add-block">
+                            <button class="remove">-</button>
+                            <p class="amount">0</p>
+                            <button class="add">+</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="advert-block__product product">
+                    <div class="product__image">
+                        <div class="product__discount">
+                            <p>-27%</p>
+                        </div>
+                        <img src="/img/product-demo.jpg" alt="">
+                    </div>
+                    <div class="product__title">
+                        <h3>Кухня Виктория</h3>
+                    </div>
+                    <div class="product__text">
+                        <p>Фасады кухни “Виктория” сделаны
+                            из МДФ и покрыты эмалью
+                            высокого качества.</p>
+                    </div>
+                    <div class="product__buy-block">
+                        <div class="product__price">
+                            <div class="product__price-discount">
+                                <p>80000 руб</p>
+                            </div>
+
+                            <h4>68000 руб</h4>
+                        </div>
+                        <div class="product__add-block">
+                            <button class="remove">-</button>
+                            <p class="amount">0</p>
+                            <button class="add">+</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="advert-block__product product">
+                    <div class="product__image">
+                        <div class="product__discount">
+                            <p>-27%</p>
+                        </div>
+                        <img src="/img/product-demo.jpg" alt="">
+                    </div>
+                    <div class="product__title">
+                        <h3>Кухня Виктория</h3>
+                    </div>
+                    <div class="product__text">
+                        <p>Фасады кухни “Виктория” сделаны
+                            из МДФ и покрыты эмалью
+                            высокого качества.</p>
+                    </div>
+                    <div class="product__buy-block">
+                        <div class="product__price">
+                            <div class="product__price-discount">
+                                <p>80000 руб</p>
+                            </div>
+
+                            <h4>68000 руб</h4>
+                        </div>
+                        <div class="product__add-block">
+                            <button class="remove">-</button>
+                            <p class="amount">0</p>
+                            <button class="add">+</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="advert-block__product product">
+                    <div class="product__image">
+                        <div class="product__discount">
+                            <p>-27%</p>
+                        </div>
+                        <img src="/img/product-demo.jpg" alt="">
+                    </div>
+                    <div class="product__title">
+                        <h3>Кухня Виктория</h3>
+                    </div>
+                    <div class="product__text">
+                        <p>Фасады кухни “Виктория” сделаны
+                            из МДФ и покрыты эмалью
+                            высокого качества.</p>
+                    </div>
+                    <div class="product__buy-block">
+                        <div class="product__price">
+                            <div class="product__price-discount">
+                                <p>80000 руб</p>
+                            </div>
+
+                            <h4>68000 руб</h4>
+                        </div>
+                        <div class="product__add-block">
+                            <button class="remove">-</button>
+                            <p class="amount">0</p>
+                            <button class="add">+</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="advert-block__product product">
+                    <div class="product__image">
+                        <div class="product__discount">
+                            <p>-27%</p>
+                        </div>
+                        <img src="/img/product-demo.jpg" alt="">
+                    </div>
+                    <div class="product__title">
+                        <h3>Кухня Виктория</h3>
+                    </div>
+                    <div class="product__text">
+                        <p>Фасады кухни “Виктория” сделаны
+                            из МДФ и покрыты эмалью
+                            высокого качества.</p>
+                    </div>
+                    <div class="product__buy-block">
+                        <div class="product__price">
+                            <div class="product__price-discount">
+                                <p>80000 руб</p>
+                            </div>
+
+                            <h4>68000 руб</h4>
+                        </div>
+                        <div class="product__add-block">
+                            <button class="remove">-</button>
+                            <p class="amount">0</p>
+                            <button class="add">+</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="advert-block__product product">
+                    <div class="product__image">
+                        <div class="product__discount">
+                            <p>-27%</p>
+                        </div>
+                        <img src="/img/product-demo.jpg" alt="">
+                    </div>
+                    <div class="product__title">
+                        <h3>Кухня Виктория</h3>
+                    </div>
+                    <div class="product__text">
+                        <p>Фасады кухни “Виктория” сделаны
+                            из МДФ и покрыты эмалью
+                            высокого качества.</p>
+                    </div>
+                    <div class="product__buy-block">
+                        <div class="product__price">
+                            <div class="product__price-discount">
+                                <p>80000 руб</p>
+                            </div>
+
+                            <h4>68000 руб</h4>
+                        </div>
+                        <div class="product__add-block">
+                            <button class="remove">-</button>
+                            <p class="amount">0</p>
+                            <button class="add">+</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="advert-block__product product">
+                    <div class="product__image">
+                        <div class="product__discount">
+                            <p>-27%</p>
+                        </div>
+                        <img src="/img/product-demo.jpg" alt="">
+                    </div>
+                    <div class="product__title">
+                        <h3>Кухня Виктория</h3>
+                    </div>
+                    <div class="product__text">
+                        <p>Фасады кухни “Виктория” сделаны
+                            из МДФ и покрыты эмалью
+                            высокого качества.</p>
+                    </div>
+                    <div class="product__buy-block">
+                        <div class="product__price">
+                            <div class="product__price-discount">
+                                <p>80000 руб</p>
+                            </div>
+
+                            <h4>68000 руб</h4>
+                        </div>
+                        <div class="product__add-block">
+                            <button class="remove">-</button>
+                            <p class="amount">0</p>
+                            <button class="add">+</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="advert-block__product product">
+                    <div class="product__image">
+                        <div class="product__discount">
+                            <p>-27%</p>
+                        </div>
+                        <img src="/img/product-demo.jpg" alt="">
+                    </div>
+                    <div class="product__title">
+                        <h3>Кухня Виктория</h3>
+                    </div>
+                    <div class="product__text">
+                        <p>Фасады кухни “Виктория” сделаны
+                            из МДФ и покрыты эмалью
+                            высокого качества.</p>
+                    </div>
+                    <div class="product__buy-block">
+                        <div class="product__price">
+                            <div class="product__price-discount">
+                                <p>80000 руб</p>
+                            </div>
+
+                            <h4>68000 руб</h4>
+                        </div>
+                        <div class="product__add-block">
+                            <button class="remove">-</button>
+                            <p class="amount">0</p>
+                            <button class="add">+</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- end of content -->
+    </main>
+</body>
+
+</html>

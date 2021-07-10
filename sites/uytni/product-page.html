@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Уютный</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/js/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/productcard-style.css">
+
+    <link rel="shortcut icon" href="/img/site-icon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- header постоянно на странице-->
+
+    <header class="header" id="header">
+        <div class="header__container container">
+            <div class="header__logo logo">
+                <a href="/index.html"><img src="/img/logo.svg" alt="logo"></a>
+            </div>
+
+            <nav class="header__nav-bar nav-bar">
+                <div class="nav-bar__links">
+                    <a class="nav-bar__link" href="/about.html">О нас</a>
+                    <a class="nav-bar__link" href="/journal.html">Журнал</a>
+                    <a class="nav-bar__link" href="/delivery.html">Доставка и оплата</a>
+                    <a class="nav-bar__link" href="/pickup.html">Пункт самовывоза</a>
+                </div>
+            </nav>
+
+            <a href="/profile.html" class="header__profile-info profile-info">
+                <div class="profile-info__img">
+                    <img src="/img/profile__img.jpg" width="26px" height="26px" alt="profile__photo">
+                </div>
+                <div class="profile-info__name">
+                    <p>Руслан</p>
+                </div>
+            </a>
+
+            <a href="/profile-market.html" class="header__market market">
+                <div class="market__icon">
+                    <img src="/img/market-icon.svg" alt="market-icon">
+                </div>
+                <div class="market__total">
+                    <p>0 руб.</p>
+                </div>
+            </a>
+
+            <div class="header__contacts">
+                <div class="header-nav__phone-icon">
+                    <a href="tel:+89884443322"><img src="/img/phone-icon.svg" alt=""></a>
+                </div>
+                <div class="header__phone-num">
+                    <a href="tel:+89884443322">8 (988) 444-33-22</a>
+                </div>
+            </div>
+            <div class="header__mobile-block">
+
+                <div class="header__mobile-favorite">
+                    <a href="#"><img src="/img/favorite-icon.svg" alt=""></a>
+                </div>
+
+                <div class="header__modile-prifile">
+                    <a href="#"><img src="/img/profile-icon.svg" alt=""></a>
+                </div>
+                <div class="header__mobile-market">
+                    <a href="#"><img src="/img/market-icon--mobile.svg" alt="market-icon"></a>
+                </div>
+
+                <div class="header__burger burger">
+                    <input class="burger__checkbox" type="checkbox" />
+                    <span class="top-stick"></span>
+                    <span class="middle-stick"></span>
+                    <span class="bottom-stick"></span>
+
+                    <div class="burger-nav">
+                        <div class="burger-nav__container">
+                            <nav class="burger-nav__nav-bar nav-bar">
+                                <a class="nav-bar__link" href="/about.html">О нас</a>
+                                <a class="nav-bar__link" href="/journal.html">Журнал</a>
+                                <a class="nav-bar__link" href="/delivery.html">Доставка и оплата</a>
+                                <a class="nav-bar__link" href="/pickup.html">Пункт самовывоза</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- header end-->
+
+    <!-- main image-->
+    <div class="homepage">
+        <div class="homepage__container">
+            <div class="homepage__img">
+                <img src="/img/homepage__bg.jpg" height="600px" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- main image end-->
+
+    <!-- search block -->
+
+    <div class="search">
+        <div class="search__container container">
+            <div class="search__sort">
+                <button class="search__btn outside-btn btn-1">Весь дом</button>
+                <button class="search__btn outside-btn btn-2">Кухня</button>
+                <button class="search__btn outside-btn btn-3">Гостиная</button>
+                <button class="search__btn outside-btn btn-4">Прихожая</button>
+                <button class="search__btn outside-btn btn-5">Спальня</button>
+                <button class="search__btn outside-btn btn-6">Детская</button>
+                <button class="search__btn outside-btn btn-7">Ванная</button>
+                <button class="search__btn outside-btn btn-8">Сад</button>
+                <button class="search__btn outside-btn btn-9">Офис</button>
+            </div>
+            <div class="search__burger burger">
+                <input class="search__burger-checkbox" type="checkbox" />
+                <img src="/img/slider-icon.svg" width="30px" height="30px" alt="">
+
+                <div class="burger-btns">
+                    <ul class="burger-btns__container">
+                        <li><button class="search__btn hidden-btn hidden-btn-1">Весь дом</button></li>
+                        <li><button class="search__btn hidden-btn hidden-btn-2">Кухня</button></li>
+                        <li><button class="search__btn hidden-btn hidden-btn-3">Гостиная</button></li>
+                        <li><button class="search__btn hidden-btn hidden-btn-4">Прихожая</button></li>
+                        <li><button class="search__btn hidden-btn hidden-btn-5">Спальня</button></li>
+                        <li><button class="search__btn hidden-btn hidden-btn-6">Детская</button></li>
+                        <li><button class="search__btn hidden-btn hidden-btn-7">Ванная</button></li>
+                        <li><button class="search__btn hidden-btn hidden-btn-8">Сад</button></li>
+                        <li><button class="search__btn hidden-btn hidden-btn-9">Офис</button></li>
+
+                        <li><button class="burger-btns__btn ">Терасса</button></li>
+                        <li><button class="burger-btns__btn ">Гараж</button></li>
+                        <li><button class="burger-btns__btn ">Бассейн</button></li>
+                        <li><button class="burger-btns__btn ">Зона отдыха</button></li>
+                        <li><button class="burger-btns__btn ">Двор</button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search__search-input">
+                <input type="search" name="search" placeholder="Поиск товаров">
+            </div>
+        </div>
+    </div>
+
+    <main class="main" id="main">
+
+        <!-- left catalog block (меняется только контент)-->
+        <div class="main__columns">
+            <div class="main__left-column">
+                <input class="catalog-nav__checkbox" type="checkbox" name="catalog-btn">
+                <div class="catalog-nav__button">
+                    <div class="catalog-nav__arrow">
+                        <img src="/img/sofa.svg" width="30px" height="30px" alt="">
+                    </div>
+                </div>
+    
+                <div class="catalog-nav">
+                    <div class="catalog-nav__title section-title">
+                        <h2>Категории</h2>
+                    </div>
+                    <ul class="catalog-nav__links">
+                        <li><a href="#" class="catalog-nav__link">Все товары</a></li>
+                        <div class="catalog-nav__border-line"></div>
+                        <li><a href="#" class="catalog-nav__link">Новинки</a></li>
+                        <div class="catalog-nav__border-line"></div>
+                        <li><a href="#" class="catalog-nav__link">Товары со скидками</a></li>
+                        <div class="catalog-nav__border-line"></div>
+                        <li><a href="#" class="catalog-nav__link">Товары для дома</a></li>
+                        <div class="catalog-nav__border-line"></div>
+                        <li><a href="#" class="catalog-nav__link">Детские игрушки</a></li>
+                        <div class="catalog-nav__border-line"></div>
+                        <li><a href="#" class="catalog-nav__link">Сувениры/Подарки</a></li>
+                        <div class="catalog-nav__border-line"></div>
+                        <li><a href="#" class="catalog-nav__link">Предметы интерьера</a></li>
+                        <div class="catalog-nav__border-line"></div>
+                        <li><a href="#" class="catalog-nav__link">Диваны и кресла</a></li>
+                        <div class="catalog-nav__border-line"></div>
+                        <li><a href="#" class="catalog-nav__link">Тумбы и комоды</a></li>
+                        <div class="catalog-nav__border-line"></div>
+                        <li><a href="#" class="catalog-nav__link">Корпусная мебель</a></li>
+                        <div class="catalog-nav__border-line"></div>
+                        <li><a href="#" class="catalog-nav__link">Кровати и матрасы</a></li>
+                        <div class="catalog-nav__border-line"></div>
+                        <li><a href="#" class="catalog-nav__link">Выбор по брендам</a></li>
+                        <div class="catalog-nav__border-line"></div>
+                        <li><a href="#" class="catalog-nav__link">Выбор по стилю
+                                интерьера</a></li>
+                    </ul>
+                </div>
+    
+    
+            </div>
+    
+    
+    
+            <div class="main__center-column">
+                <!-- меняющийся контент: товары статьи и тп-->
+                <div class="page-nav">
+                    <div class="page-nav__container">
+                        <a href="#" class="page-nav__back-link"><span class="dedicated--green">
+                                < </span> Назад</a>
+                        <p class="page-nav__border">|</p>
+                        <a href="#" class="page-nav__this-page">Деревянная орехоломка</a>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-card__product-description product-description">
+                        
+                        <div class="product-description__main-block">
+                            
+                            <div class="product-description__first-block">
+    
+                                <div class="product-description__title">
+                                    <h1>Деревянная орехоломка</h1>
+                                </div>
+                                <div class="product-description__img">
+                                </div>
+    
+                                <div class="product-card__img-preview img-preview">
+                                    <div class="img-preview__container owl-carousel">
+                                        <div class="img-preview__image-container">
+                                            <img class="img-preview__image" src="/img/test-product-image.png" alt="">
+                                        </div>
+                                        <div class="img-preview__image-container">
+                                            <img class="img-preview__image" src="/img/test-product-image.png" alt="">
+                                        </div>
+                                        <div class="img-preview__image-container">
+                                            <img class="img-preview__image" src="/img/test-product-image.png" alt="">
+                                        </div>
+                                        <div class="img-preview__image-container">
+                                            <img class="img-preview__image" src="/img/test-product-image.png" alt="">
+                                        </div>
+                                        <div class="img-preview__image-container">
+                                            <img class="img-preview__image" src="/img/test-product-image.png" alt="">
+                                        </div>
+                                        <div class="img-preview__image-container">
+                                            <img class="img-preview__image" src="/img/test-product-image.png" alt="">
+                                        </div>
+                                        <div class="img-preview__image-container">
+                                            <img class="img-preview__image" src="/img/test-product-image.png" alt="">
+                                        </div>
+    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__side-block">
+                                <div class="product-card__product-info product-info">
+                                    <div class="product-info__container">
+                                        <div class="product-info__rate rate">
+                                            <div class="rate__stars" data-total-value="4">
+                                                <p class="rate__star star" data-item-value="5">&#9733;</p>
+                                                <p class="rate__star star" data-item-value="4">&#9733;</p>
+                                                <p class="rate__star star" data-item-value="3">&#9733;</p>
+                                                <p class="rate__star star" data-item-value="2">&#9733;</p>
+                                                <p class="rate__star star" data-item-value="1">&#9733;</p>
+                                            </div>
+    
+                                            <div class="rate__total-reviews">
+                                                <p>25 оценок</p>
+                                            </div>
+                                        </div>
+                                        <div class="product-info__price-block">
+                                            <div class="product-info__price">
+                                                <h2><span class="text--bold">17 000</span> руб</h2>
+                                            </div>
+                                            <div class="product-info__fav-icon">
+                                                <img src="/img/favorite-icon(black).svg" alt="">
+                                            </div>
+    
+                                        </div>
+                                        <div class="product-info__border-block"></div>
+                                        <div class="product-info__properties product-properties">
+                                            <div class="product-properties__prop-circles">
+                                                <p>Свойства:</p>
+                                                <div class="product-properties__color-circles">
+                                                    <input type="radio" name="color" id="color-1">
+                                                    <label for="color-1"></label>
+                                                    <input type="radio" name="color" id="color-2">
+                                                    <label for="color-2"></label>
+                                                    <input type="radio" name="color" id="color-3">
+                                                    <label for="color-3"></label>
+                                                    <input type="radio" name="color" id="color-4">
+                                                    <label for="color-4"></label>
+                                                    <input type="radio" name="color" id="color-5">
+                                                    <label for="color-5"></label>
+                                                </div>
+                                            </div>
+    
+                                            <div class="product-properties__prop-colors">
+                                                <p>Другие цвета</p>
+                                            </div>
+                                            <select class="product-properties-select">
+                                                <option value="0" disabled="disabled" selected="selected">Выбрать
+                                                </option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                            </select>
+                                            <button class="product-properties__buy">Купить</button>
+                                        </div>
+                                        <div class="product-info__border-block"></div>
+                                        <div class="product-info__delivery">
+                                            <p class="dedicated--green">
+                                                Есть в наличии
+                                            </p>
+                                            <p>
+                                                Доставка за 1000 руб
+                                            </p>
+                                            <p>
+                                                Самовызов <a href="#" class="dedicated--green">1 адрес</a>
+                                            </p>
+                                        </div>
+    
+                                        <div class="product-info__border-block"></div>
+                                        <div class="product-info__delivery-date">
+                                            <p>Доставка через 7 дней</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="product-card__more-brand more-brand">
+                                    <div class="more-brand__container">
+                                        <div class="more-brand__logo"></div>
+                                        <div class="more-brand__text">
+                                            <p> ВСЕ ТОВАРЫ
+                                                КОЛЛЕКЦИИ
+                                                FRYBEST</p>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="product-card__info">
+    
+                            <input class="main-radio" type="radio" name="profile-tab" id="radio-1" checked>
+    
+                            <input class="main-radio" type="radio" name="profile-tab" id="radio-2">
+    
+                            <input class="main-radio" type="radio" name="profile-tab" id="radio-3">
+    
+                            <input class="main-radio" type="radio" name="profile-tab" id="radio-4">
+    
+                            <div class="product-card__label-block">
+                                <label class="main-radio__label label-1" for="radio-1">Описание</label>
+                                <label class="main-radio__label label-2" for="radio-2">Характеристики</label>
+                                <label class="main-radio__label label-3" for="radio-3">Отзывы</label>
+                                <label class="main-radio__label label-4" for="radio-4">Вопрос/Ответ</label>
+                            </div>
+    
+                            <div class="product-card__border-block">
+    
+                            </div>
+    
+                            <div class="product-card__product-text product-text">
+                                <p>Прямой диван Куба – практичное решение для небольшой гостиной, студии или кухни.
+                                    При своих скромных размерах он трансформируется в полноценное двуспальное место.
+                                    Поскольку подушки модели раскладываются на пол, модель не предназначена
+                                    для ежедневного использования, но удобна для размещения припозднившихся гостей.</p>
+                                <br>
+                                <p>Тканевая обивка легко поддается чистке.
+                                    Прикручивающиеся ножки выполнены из прочного пластика. </p>
+                                <br>
+                                <p>Эта модель доступна только в тех вариантах обивки, которые представлены
+                                    в нашем ассортименте.</p>
+                            </div>
+    
+                            <div class="product-card__characteristic characteristic">
+                                <div class="characteristic__title">
+                                    <h3>Основные</h3>
+                                </div>
+                                <div class="characteristic__parameter">
+                                    <p>Коллекция:</p>
+                                    <div class="characteristic__dots-block"></div>
+                                    <p>Куба</p>
+                                </div>
+                                <div class="characteristic__parameter">
+                                    <p>Коллекция:</p>
+                                    <div class="characteristic__dots-block"></div>
+                                    <p>Куба</p>
+                                </div>
+                                <div class="characteristic__parameter">
+                                    <p>Коллекция:</p>
+                                    <div class="characteristic__dots-block"></div>
+                                    <p>Куба</p>
+                                </div>
+                                <div class="characteristic__parameter">
+                                    <p>Коллекция:</p>
+                                    <div class="characteristic__dots-block"></div>
+                                    <p>Куба</p>
+                                </div>
+                                <div class="characteristic__parameter">
+                                    <p>Коллекция:</p>
+                                    <div class="characteristic__dots-block"></div>
+                                    <p>Куба</p>
+                                </div>
+                                <div class="characteristic__parameter">
+                                    <p>Страна:</p>
+                                    <div class="characteristic__dots-block"></div>
+                                    <p>Россия</p>
+                                </div>
+                                <div class="characteristic__title">
+                                    <h3>Основные</h3>
+                                </div>
+                                <div class="characteristic__parameter">
+                                    <p>Коллекция:</p>
+                                    <div class="characteristic__dots-block"></div>
+                                    <p>Куба</p>
+                                </div>
+                                <div class="characteristic__parameter">
+                                    <p>Коллекция:</p>
+                                    <div class="characteristic__dots-block"></div>
+                                    <p>Куба</p>
+                                </div>
+                                <div class="characteristic__parameter">
+                                    <p>Коллекция:</p>
+                                    <div class="characteristic__dots-block"></div>
+                                    <p>Куба</p>
+                                </div>
+                                <div class="characteristic__parameter">
+                                    <p>Коллекция:</p>
+                                    <div class="characteristic__dots-block"></div>
+                                    <p>Куба</p>
+                                </div>
+                                <div class="characteristic__parameter">
+                                    <p>Коллекция:</p>
+                                    <div class="characteristic__dots-block"></div>
+                                    <p>Куба</p>
+                                </div>
+                                <div class="characteristic__parameter">
+                                    <p>Коллекция:</p>
+                                    <div class="characteristic__dots-block"></div>
+                                    <p>Куба</p>
+                                </div>
+                            </div>
+    
+                            <div class="product-card__reviews reviews">
+                                <div class="reviews__head">
+                                    <button class="reviews__button">Оставить отзыв</button>
+                                    <div class="reviews__product-rate">
+                                        <div class="reviews__rate">
+                                            <p>Рейтинг 4,7</p>
+                                        </div>
+                                        <div class="reviews__stars" data-total-value="4">
+                                            <p class="reviews__star star" data-item-value="5">&#9733;</p>
+                                            <p class="reviews__star star" data-item-value="4">&#9733;</p>
+                                            <p class="reviews__star star" data-item-value="3">&#9733;</p>
+                                            <p class="reviews__star star" data-item-value="2">&#9733;</p>
+                                            <p class="reviews__star star" data-item-value="1">&#9733;</p>
+                                        </div>
+                                        <div class="reviews__total-reviews">
+                                            <p>25 оценок</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="reviews__border-block"></div>
+                                <div class="reviews__review review">
+                                    <div class="review__head">
+                                        <div class="review__info">
+                                            <div class="review__name">
+                                                <h3>
+                                                    Светлана
+                                                </h3>
+                                            </div>
+                                            <div class="reviews__stars stars--small" data-total-value="5">
+                                                <p class="reviews__star star" data-item-value="5">&#9733;</p>
+                                                <p class="reviews__star star" data-item-value="4">&#9733;</p>
+                                                <p class="reviews__star star" data-item-value="3">&#9733;</p>
+                                                <p class="reviews__star star" data-item-value="2">&#9733;</p>
+                                                <p class="reviews__star star" data-item-value="1">&#9733;</p>
+                                            </div>
+                                        </div>
+                                        <div class="review__date">
+                                            <p>4 июня 2020</p>
+                                        </div>
+                                    </div>
+                                    <div class="review__text">
+                                        <p>Брала белую Сити за 20999, через неделю она стала 14999, жаль я не попала на
+                                            скидку ) всем кому
+                                            нужна кухня такого размера и у кого ограниченный бюджет -советую. </p>
+                                        <br>
+                                        <p>Смотрится хорошо, даже с мои пока старым холодильником, если замечу какие то
+                                            недостатки
+                                            дополню отзыв по возможности , пока пару дней только пользуюсь .Столешница и
+                                            стеновая панель
+                                            тоже с Хоф, вот только большая теперь проблема -не могу найти под ложки и
+                                            вилки
+                                            подставку
+                                            в шкафчик ,если мой отзыв прочитает магазин и ответит что делать -будет
+                                            великолепно ,так как все
+                                            что есть в магазине не помещается по длине .</p>
+                                    </div>
+                                </div>
+                                <div class="reviews__border-block"></div>
+                                <div class="reviews__review review">
+                                    <div class="review__head">
+                                        <div class="review__info">
+                                            <div class="review__name">
+                                                <h3>
+                                                    Светлана
+                                                </h3>
+                                            </div>
+                                            <div class="reviews__stars stars--small" data-total-value="5">
+                                                <p class="reviews__star star" data-item-value="5">&#9733;</p>
+                                                <p class="reviews__star star" data-item-value="4">&#9733;</p>
+                                                <p class="reviews__star star" data-item-value="3">&#9733;</p>
+                                                <p class="reviews__star star" data-item-value="2">&#9733;</p>
+                                                <p class="reviews__star star" data-item-value="1">&#9733;</p>
+                                            </div>
+                                        </div>
+                                        <div class="review__date">
+                                            <p>4 июня 2020</p>
+                                        </div>
+                                    </div>
+                                    <div class="review__text">
+                                        <p>Брала белую Сити за 20999, через неделю она стала 14999, жаль я не попала на
+                                            скидку ) всем кому
+                                            нужна кухня такого размера и у кого ограниченный бюджет -советую. </p>
+                                        <br>
+                                        <p>Смотрится хорошо, даже с мои пока старым холодильником, если замечу какие то
+                                            недостатки
+                                            дополню отзыв по возможности , пока пару дней только пользуюсь .Столешница и
+                                            стеновая панель
+                                            тоже с Хоф, вот только большая теперь проблема -не могу найти под ложки и
+                                            вилки
+                                            подставку
+                                            в шкафчик ,если мой отзыв прочитает магазин и ответит что делать -будет
+                                            великолепно ,так как все
+                                            что есть в магазине не помещается по длине .</p>
+                                    </div>
+                                </div>
+                                <div class="reviews__border-block"></div>
+                            </div>
+    
+                            <div class="product-card__question-block question-block">
+                                <div class="question-block__head">
+                                    <button class="question-block__button">Задать вопрос</button>
+                                </div>
+                                <div class="question-block__border-block"></div>
+                                <div class="question-block__question">
+                                    <div class="question__info">
+                                        <div class="question__name">
+                                            <h3>Светлана</h3>
+                                        </div>
+                                        <div class="question__date">
+                                            <p>4 июня 2020</p>
+                                        </div>
+                                    </div>
+                                    <div class="question__text">
+                                        <p>Как вы успеваете столько?</p>
+                                    </div>
+                                    <div class="question__answer-btn">
+                                        <a href="#">Ответить</a>
+                                    </div>
+    
+                                    <div class="question__answer answer">
+                                        <div class="answer__name">
+                                            <h3>Консультант интернет-магазина</h3>
+                                        </div>
+                                        <div class="answer__text">
+                                            <p>Вот так вот</p>
+                                        </div>
+                                        <div class="answer__answer-btn">
+                                            <a href="#">Ответить</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="question-block__border-block"></div>
+                                <div class="question-block__question">
+                                    <div class="question__info">
+                                        <div class="question__name">
+                                            <h3>Светлана</h3>
+                                        </div>
+                                        <div class="question__date">
+                                            <p>4 июня 2020</p>
+                                        </div>
+                                    </div>
+                                    <div class="question__text">
+                                        <p>Как вы успеваете столько?</p>
+                                    </div>
+                                    <div class="question__answer-btn">
+                                        <a href="#">Ответить</a>
+                                    </div>
+    
+                                    <div class="question__answer answer">
+                                        <div class="answer__name">
+                                            <h3>Консультант интернет-магазина</h3>
+                                        </div>
+                                        <div class="answer__text">
+                                            <p>Вот так вот</p>
+                                        </div>
+                                        <div class="answer__answer-btn">
+                                            <a href="#">Ответить</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="question-block__border-block"></div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="profile-content__advert-container">
+                    <div class="advert-block">
+                        <div class="advert-block__title section-title">
+                            <h2>Вам могут быть интересны</h2>
+                        </div>
+    
+                        <!-- Здесь карусель товаров-->
+    
+                        <ul class="advert-block__product-block product-carousel owl-carousel">
+    
+                            <li class="advert-block__product product">
+                                <div class="product__image">
+                                    <div class="product__discount">
+                                        <p>-27%</p>
+                                    </div>
+                                    <a href="/product-page.html"><img src="/img/product-demo.jpg" alt=""></a>
+                                </div>
+                                <div class="product__title">
+                                    <h3>Кухня Виктория</h3>
+                                </div>
+                                <div class="product__text">
+                                    <p>Фасады кухни “Виктория” сделаны
+                                        из МДФ и покрыты эмалью
+                                        высокого качества.</p>
+                                </div>
+                                <div class="product__buy-block">
+                                    <div class="product__price">
+                                        <div class="product__price-discount">
+                                            <p>80000 руб</p>
+                                        </div>
+    
+                                        <h4>68000 руб</h4>
+                                    </div>
+                                    <div class="product__add-block">
+                                        <button class="remove">-</button>
+                                        <p class="amount">0</p>
+                                        <button class="add">+</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="advert-block__product product">
+                                <div class="product__image">
+                                    <div class="product__discount">
+                                        <p>-27%</p>
+                                    </div>
+                                    <a href="/product-page.html"><img src="/img/product-demo.jpg" alt=""></a>
+                                </div>
+                                <div class="product__title">
+                                    <h3>Кухня Виктория</h3>
+                                </div>
+                                <div class="product__text">
+                                    <p>Фасады кухни “Виктория” сделаны
+                                        из МДФ и покрыты эмалью
+                                        высокого качества.</p>
+                                </div>
+                                <div class="product__buy-block">
+                                    <div class="product__price">
+                                        <div class="product__price-discount">
+                                            <p>80000 руб</p>
+                                        </div>
+    
+                                        <h4>68000 руб</h4>
+                                    </div>
+                                    <div class="product__add-block">
+                                        <button class="remove">-</button>
+                                        <p class="amount">0</p>
+                                        <button class="add">+</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="advert-block__product product">
+                                <div class="product__image">
+                                    <div class="product__discount">
+                                        <p>-27%</p>
+                                    </div>
+                                    <a href="/product-page.html"><img src="/img/product-demo.jpg" alt=""></a>
+                                </div>
+                                <div class="product__title">
+                                    <h3>Кухня Виктория</h3>
+                                </div>
+                                <div class="product__text">
+                                    <p>Фасады кухни “Виктория” сделаны
+                                        из МДФ и покрыты эмалью
+                                        высокого качества.</p>
+                                </div>
+                                <div class="product__buy-block">
+                                    <div class="product__price">
+                                        <div class="product__price-discount">
+                                            <p>80000 руб</p>
+                                        </div>
+    
+                                        <h4>68000 руб</h4>
+                                    </div>
+                                    <div class="product__add-block">
+                                        <button class="remove">-</button>
+                                        <p class="amount">0</p>
+                                        <button class="add">+</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="advert-block__product product">
+                                <div class="product__image">
+                                    <div class="product__discount">
+                                        <p>-27%</p>
+                                    </div>
+                                    <a href="/product-page.html"><img src="/img/product-demo.jpg" alt=""></a>
+                                </div>
+                                <div class="product__title">
+                                    <h3>Кухня Виктория</h3>
+                                </div>
+                                <div class="product__text">
+                                    <p>Фасады кухни “Виктория” сделаны
+                                        из МДФ и покрыты эмалью
+                                        высокого качества.</p>
+                                </div>
+                                <div class="product__buy-block">
+                                    <div class="product__price">
+                                        <div class="product__price-discount">
+                                            <p>80000 руб</p>
+                                        </div>
+    
+                                        <h4>68000 руб</h4>
+                                    </div>
+                                    <div class="product__add-block">
+                                        <button class="remove">-</button>
+                                        <p class="amount">0</p>
+                                        <button class="add">+</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="advert-block__product product">
+                                <div class="product__image">
+                                    <div class="product__discount">
+                                        <p>-27%</p>
+                                    </div>
+                                    <a href="/product-page.html"><img src="/img/product-demo.jpg" alt=""></a>
+                                </div>
+                                <div class="product__title">
+                                    <h3>Кухня Виктория</h3>
+                                </div>
+                                <div class="product__text">
+                                    <p>Фасады кухни “Виктория” сделаны
+                                        из МДФ и покрыты эмалью
+                                        высокого качества.</p>
+                                </div>
+                                <div class="product__buy-block">
+                                    <div class="product__price">
+                                        <div class="product__price-discount">
+                                            <p>80000 руб</p>
+                                        </div>
+    
+                                        <h4>68000 руб</h4>
+                                    </div>
+                                    <div class="product__add-block">
+                                        <button class="remove">-</button>
+                                        <p class="amount">0</p>
+                                        <button class="add">+</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="advert-block__product product">
+                                <div class="product__image">
+                                    <div class="product__discount">
+                                        <p>-27%</p>
+                                    </div>
+                                    <a href="/product-page.html"><img src="/img/product-demo.jpg" alt=""></a>
+                                </div>
+                                <div class="product__title">
+                                    <h3>Кухня Виктория</h3>
+                                </div>
+                                <div class="product__text">
+                                    <p>Фасады кухни “Виктория” сделаны
+                                        из МДФ и покрыты эмалью
+                                        высокого качества.</p>
+                                </div>
+                                <div class="product__buy-block">
+                                    <div class="product__price">
+                                        <div class="product__price-discount">
+                                            <p>80000 руб</p>
+                                        </div>
+    
+                                        <h4>68000 руб</h4>
+                                    </div>
+                                    <div class="product__add-block">
+                                        <button class="remove">-</button>
+                                        <p class="amount">0</p>
+                                        <button class="add">+</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="advert-block__product product">
+                                <div class="product__image">
+                                    <div class="product__discount">
+                                        <p>-27%</p>
+                                    </div>
+                                    <a href="/product-page.html"><img src="/img/product-demo.jpg" alt=""></a>
+                                </div>
+                                <div class="product__title">
+                                    <h3>Кухня Виктория</h3>
+                                </div>
+                                <div class="product__text">
+                                    <p>Фасады кухни “Виктория” сделаны
+                                        из МДФ и покрыты эмалью
+                                        высокого качества.</p>
+                                </div>
+                                <div class="product__buy-block">
+                                    <div class="product__price">
+                                        <div class="product__price-discount">
+                                            <p>80000 руб</p>
+                                        </div>
+    
+                                        <h4>68000 руб</h4>
+                                    </div>
+                                    <div class="product__add-block">
+                                        <button class="remove">-</button>
+                                        <p class="amount">0</p>
+                                        <button class="add">+</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="advert-block__product product">
+                                <div class="product__image">
+                                    <div class="product__discount">
+                                        <p>-27%</p>
+                                    </div>
+                                    <a href="/product-page.html"><img src="/img/product-demo.jpg" alt=""></a>
+                                </div>
+                                <div class="product__title">
+                                    <h3>Кухня Виктория</h3>
+                                </div>
+                                <div class="product__text">
+                                    <p>Фасады кухни “Виктория” сделаны
+                                        из МДФ и покрыты эмалью
+                                        высокого качества.</p>
+                                </div>
+                                <div class="product__buy-block">
+                                    <div class="product__price">
+                                        <div class="product__price-discount">
+                                            <p>80000 руб</p>
+                                        </div>
+    
+                                        <h4>68000 руб</h4>
+                                    </div>
+                                    <div class="product__add-block">
+                                        <button class="remove">-</button>
+                                        <p class="amount">0</p>
+                                        <button class="add">+</button>
+                                    </div>
+                                </div>
+                            </li>
+    
+    
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- конец контента-->
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="footer__container container">
+            <div class="footer__row first-row">
+                <div class="footer__logo">
+                    <img src="/img/logo.svg" alt="">
+                </div>
+                <div class="first-row__links">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Пользовательское соглашение</a>
+                </div>
+            </div>
+            <div class="footer__row footer__links">
+                <a href="/about.html">О нас</a>
+                <a href="/journal.html">Журнал</a>
+                <a href="/delivery.html">Доставка и оплата</a>
+                <a href="/pickup.html">Пункт самовывоза</a>
+            </div>
+            <div class="footer__row footer__info">
+                <p>ИП Даудов Арслан</p>
+                <p>ИНН: 323324342342</p>
+                <p>РС: 2312213123132213231</p>
+                <div class="footer__inst-link"><img src="/img/instagram-icon.svg" width="18px" height="18px" alt="">
+                    <a>@uyutniy_dom</a>
+                </div>
+
+            </div>
+            <div class="footer__row footer__payment">
+                <div class="footer__card-block">
+                    <img src="/img/mastercard-icon.svg" alt="">
+                    <img src="/img/visa-icon.png" alt="">
+                </div>
+
+                <div class="footer__production">
+                    <img src="/img/highland.png" alt="">
+                    <h3>Сделано <br>
+                        в дизайн-заводе <br>
+                        Highland</h3>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

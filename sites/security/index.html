@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/img/Logo.ico" type="image/x-icon">
+    <title>Центр безопасности</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div id="pop-up" class="pop-up">
+        <div class="pop-up__container">
+            <div class="pop-up__content">
+                <div class="pop-up__close">
+                    <img src="./img/close-icon.svg" alt="">
+                </div>
+
+                <div class="pop-up__title">
+                    <h3>
+                        Мы вам позвоним!
+                    </h3>
+                </div>
+                <div class="pop-up__text">
+                    <p>В ближайшее время наши специалисты свяжутся с Вами и ответят на все ваши вопросы.</p>
+                </div>
+                <form action="#" class="pop-up__form">
+                    <input type="text" name="" id="" placeholder="Введите Ваше имя">
+                    <input type="tel" name="" id="" placeholder="Номер телефона">
+                    <button type="submit">ОТПРАВИТЬ</button>
+                    <p>Отправляя данные вы соглашаетесь
+                        на обработку персональных даннных</p>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+    <header id="header" class="header">
+        <div class="header__container container">
+            <div class="header__logo logo">
+                <a href="#"><img src="./img/logo(full).svg" alt="logo"></a>
+            </div>
+
+            <nav-bar class="header__nav-bar nav-bar">
+                <a href="#about" class="nav-bar__link">Зачем</a>
+                <a href="#stages" class="nav-bar__link">Этапы</a>
+                <a href="#services" class="nav-bar__link">Услуги</a>
+                <a href="#guarantees" class="nav-bar__link">Гарантии</a>
+                <a href="#contacts" class="nav-bar__link">Контакты</a>
+            </nav-bar>
+
+            <div class="header__btn-block">
+                <button class="header__button button" onclick="PopUpShow()">запросить кп</button>
+            </div>
+
+            <div class="header__burger burger">
+                <input type="checkbox" />
+                <span class="top-stick"></span>
+                <span class="middle-stick"></span>
+                <span class="bottom-stick"></span>
+
+                <div class="burger-nav">
+                    <div class="burger-nav__container">
+                        <div class="burger-nav__title">
+                            <h3>Меню</h3>
+                        </div>
+                        <div class="burger-nav__links burger-nav--active">
+                            <a href="#about" class="nav-bar__link">Зачем</a>
+                            <a href="#stages" class="nav-bar__link">Этапы</a>
+                            <a href="#services" class="nav-bar__link">Услуги</a>
+                            <a href="#guarantees" class="nav-bar__link">Гарантии</a>
+                            <a href="#contacts" class="nav-bar__link">Контакты</a>
+                        </div>
+                        <div class="burger__btn-block">
+                            <button class="button burger__button" onclick="PopUpShow()">запросить кп</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="site-content">
+        <div id="sitebranding" class="sitebranding">
+            <div class="sitebranding__container container">
+                <div class="sitebranding__row">
+                    <div class="sitebranding__title">
+                        <h1>Пентест — тестирование систем на проникновение</h1>
+                    </div>
+                    <div class="sitebranding__text">
+                        <p>Мы проводим профессиональную экспертизу, которая выявляет проблемы информационной
+                            безопасности Компании.</p>
+                    </div>
+                    <div class="sitebranding__text">
+                        <p>Вы увидите возможные способы взлома и получения доступа к конфиденциальной информации и
+                            получите инструкцию по стабилизации защиты.</p>
+                    </div>
+                    <div class="sitebranding__btn-block">
+                        <button class="button sitebranding__button" onclick="PopUpShow()">Запросить кп</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="about" class="about__block-title block-title">
+            <h2>Для чего нужен пентест?</h2>
+        </div>
+
+        <div class="about">
+            <div class="about__container container">
+                <div class="about__card-block card-block">
+                    <div class="about__card card">
+                        <div class="card__img">
+                            <img src="./img/card-img_1.jpg" alt="photo-1">
+                        </div>
+                        <div class="card__title">
+                            <h3>Экспертиза текущего уровня защищенности системы</h3>
+                        </div>
+                        <div class="card__text">
+                            <p>По итогам вы получаете:
+                                <br> - экспертное заключение;
+                                <br> - подробное описание и обоснование всех уязвимостей;
+                                <br> - план действий по их ликвидации и защите ресурса компании;
+                                <br> - пример реальной работы вашей системы в условиях стресс-теста.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about__card card">
+                        <div class="card__img">
+                            <img src="./img/card-img_2.jpg" alt="photo-2">
+                        </div>
+                        <div class="card__title">
+                            <h3>Соблюдение требований отраслевых стандартов</h3>
+                        </div>
+                        <div class="card__text">
+                            <p>С данной экспертизой ваша компания будет соответствовать корпоративным, отраслевым и
+                                международным стандартам, в которых предписано выполнение тестирования на проникновение.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about__card card">
+                        <div class="card__img">
+                            <img src="./img/card-img_3.jpg" alt="photo-3">
+                        </div>
+                        <div class="card__title">
+                            <h3>Соответствие требованиям Приказов ФСТЭК России</h3>
+                        </div>
+                        <div class="card__text">
+                            <p>Одна из обязательных процедур управления ИБ в Компании — это выявление и анализ
+                                уязвимостей информационных систем согласно требованию Приказов ФСТЭК России.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__btn-block">
+                    <button class="button about__button" onclick="PopUpShow()">Запросить кп</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="reviews" class="reviews__block-title block-title">
+            <h2>Отзывы</h2>
+        </div>
+
+        <div class="reviews">
+
+            <div class="reviews__container container">
+                <div class="reviews__slider owl-carousel reviews-carousel owl-theme">
+                    <div class="reviews__slide">
+                        <img src="./img/review1.jpg" alt="">
+                    </div>
+                    <div class="reviews__slide">
+                        <img src="./img/review2.jpg" alt="">
+                    </div>
+                    <div class="reviews__slide">
+                        <img src="./img/review.jpg" alt="">
+                    </div>
+                    <div class="reviews__slide">
+                        <img src="./img/review.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="stages" class="stages__block-title block-title">
+            <h2>Этапы работ</h2>
+        </div>
+
+        <div class="stages">
+            <div class="stages__container container">
+                <div class="stages__block">
+                    <div class="stages__stage stage">
+                        <div class="stage__number">
+                            <p>1</p>
+                        </div>
+                        <div class="stage__content">
+                            <div class="stage__title">
+                                <h3>Составление плана работ</h3>
+                            </div>
+                            <div class="stage__text">
+                                <p>Сперва мы оценим поставленные задачи, а после согласуем с вами работы
+                                    и перейдем к подписанию документов. На это уходит два дня.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stages__stage stage">
+                        <div class="stage__number">
+                            <p>2</p>
+                        </div>
+                        <div class="stage__content">
+                            <div class="stage__title">
+                                <h3>Проверка информационных систем</h3>
+                            </div>
+                            <div class="stage__text">
+                                <p>На этом этапе идет проверка операционной системы и сетевой инфраструктуры. В этом нам
+                                    помогает специализированное ПО, сканеры уязвимости, а также проверки вручную нашими
+                                    специалистами. Проверка длится 12 дней.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stages__stage stage">
+                        <div class="stage__number">
+                            <p>3</p>
+                        </div>
+                        <div class="stage__content">
+                            <div class="stage__title">
+                                <h3>Стресс-тестирование уязвимостей</h3>
+                            </div>
+                            <div class="stage__text">
+                                <p>После того как выявлены уязвимости операционной системы, на нее моделируется атака.
+                                    Так мы лучше изучаем процесс в динамике. Далее,
+                                    в течение трех дней набираем информацию для заключительных выводов.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stages__stage stage">
+                        <div class="stage__number">
+                            <p>4</p>
+                        </div>
+                        <div class="stage__content">
+                            <div class="stage__title">
+                                <h3>Инструкции по устранению уязвимостей</h3>
+                            </div>
+                            <div class="stage__text">
+                                <p>Вы получаете от нас экспертное заключение, список выявленных уязвимостей,
+                                    а также план действий для их устранения. Действуя по плану, вы сразу же
+                                    минимизируете риск новых атак. Подготовка инструкций займет 3 дня.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services" class="services__block-title block-title">
+            <h2>Услуги</h2>
+        </div>
+
+        <div class="services">
+            <div class="services__container container">
+                <div class="services__block">
+                    <div class="services__service service">
+                        <div class="service__icon">
+                            <img src="./img/service-icon.svg" alt="">
+                        </div>
+                        <div class="service__title">
+                            <h3>Анализ защищенности внешнего периметра</h3>
+                        </div>
+                        <a class="service__more" href="./analys2.html">Подробнее</a>
+                    </div>
+                    <div class="services__service service">
+                        <div class="service__icon">
+                            <img src="./img/service-icon2.svg" alt="">
+                        </div>
+                        <div class="service__title">
+                            <h3>Анализ защиты логического функционала веб-приложения</h3>
+                        </div>
+                        <a class="service__more" href="./analys1.html">Подробнее</a>
+                    </div>
+                    <div class="services__service service">
+                        <div class="service__icon">
+                            <img src="./img/service-icon3.svg" alt="">
+                        </div>
+                        <div class="service__title">
+                            <h3>Тестирование методами социальной инженерии </h3>
+                        </div>
+                        <a class="service__more" href="./tests.html">Подробнее</a>
+                    </div>
+                    <div class="services__service service">
+                        <div class="service__icon">
+                            <img src="./img/service-icon4.svg" alt="">
+                        </div>
+                        <div class="service__title">
+                            <h3>Анализ защищенности внутренней сети</h3>
+                        </div>
+                        <a class="service__more" href="./analys3.html">Подробнее</a>
+                    </div>
+                    <div class="services__service service">
+                        <div class="service__icon">
+                            <img src="./img/service-icon5.svg" alt="">
+                        </div>
+                        <div class="service__title">
+                            <h3>Анализ защищенности
+                                сети Wi-Fi</h3>
+                        </div>
+                        <a class="service__more" href="./analys4.html">Подробнее</a>
+                    </div>
+                    <div class="services__service service">
+                        <div class="service__icon">
+                            <img src="./img/service-icon6.svg" alt="">
+                        </div>
+                        <div class="service__title">
+                            <h3>Нагрузочное <br> стресс-тестирование</h3>
+                        </div>
+                        <a class="service__more" href="./tests2.html">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="guarantees" class="guarantees__block-title block-title">
+            <h2>Гарантии</h2>
+        </div>
+
+        <div class="guarantees">
+            <div class="guarantees__container container">
+
+                <div class="guarantee__block">
+                    <div class="guarantees__guarantee guarantee">
+                        <div class="guarantee__title">
+                            <h3>ЦБИС гарантирует:</h3>
+                        </div>
+                    </div>
+                    <div class="guarantees__risk risk">
+                        <div class="risk__title">
+                            <h3>Риски на стороне:</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guarantee__block">
+                    <div class="guarantees__guarantee guarantee">
+                        <div class="guarantee__title">
+                            <h4>Частный подход</h4>
+                        </div>
+                        <div class="guarantee__text">
+                            <p>
+                                Мы проводим большую аналитическую работу и понимаем происхождение обнаруженных
+                                уязвимостей. Адаптируем методики и техники проведения атак под ваше окружение.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="guarantees__risk risk">
+                        <div class="risk__title">
+                            <h4>
+                                Шаблонные решения
+                            </h4>
+                        </div>
+                        <div class="risk__text">
+                            <p>Шаблонные решения и автоматизированные работы без возможности адаптации и понимания
+                                окружения Заказчика.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="guarantee__block">
+                    <div class="guarantees__guarantee guarantee">
+                        <div class="guarantee__title">
+                            <h4>Экспертиза</h4>
+                        </div>
+                        <div class="guarantee__text">
+                            <p>
+                                Вы получаете подробный отчет с указанием деталей и причин возникновения уязвимостей. А
+                                также алгоритм для их немедленного устранения.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="guarantees__risk risk">
+                        <div class="risk__title">
+                            <h4>
+                                Обрывки информации
+                            </h4>
+                        </div>
+                        <div class="risk__text">
+                            <p>Безсистемный подход, технический отчет со сканера, неудобный для восприятия и содержащий
+                                избыточную информацию для объема.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="guarantee__block">
+                    <div class="guarantees__guarantee guarantee">
+                        <div class="guarantee__title">
+                            <h4>Защита тайны</h4>
+                        </div>
+                        <div class="guarantee__text">
+                            <p>
+                                Мы заботимся о том, чтобы вся информация, полученная в процессе работы оставалась строго
+                                конфиденциальной, и не попала в руки к третьим лицам.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="guarantees__risk risk">
+                        <div class="risk__title">
+                            <h4>
+                                Утечка данных
+                            </h4>
+                        </div>
+                        <div class="risk__text">
+                            <p>Информация с большой вероятностью может быть опубликована в Интернете, а все данные
+                                проданы на хакерских форумах или слиты конкурентам.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="guarantee__block">
+                    <div class="guarantees__guarantee guarantee">
+                        <div class="guarantee__title">
+                            <h4>Сильная команда</h4>
+                        </div>
+                        <div class="guarantee__text">
+                            <p>
+                                Компетентные сотрудники проводящие тестирование являются сертифицированными экспертами.
+                                Они известны по своим блогам и выступлениям на профильных конференциях.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="guarantees__risk risk">
+                        <div class="risk__title">
+                            <h4>
+                                Любители
+                            </h4>
+                        </div>
+                        <div class="risk__text">
+                            <p>Некомпетентные или начинающие работники, которыми зачастую являются студенты, стажеры или
+                                непрофильные специалисты.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="guarantee__block">
+                    <div class="guarantees__guarantee guarantee">
+                        <div class="guarantee__title">
+                            <h4>Глубокое понимание задачи</h4>
+                        </div>
+                        <div class="guarantee__text">
+                            <p>
+                                Пентест – это важный элемент стратегии по информационной безопасности компании
+                                Заказчика.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="guarantees__risk risk">
+                        <div class="risk__title">
+                            <h4>
+                                Посредственность
+                            </h4>
+                        </div>
+                        <div class="risk__text">
+                            <p>Пентест – это технический процесс (проверка сервисов на прочность). </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="guarantee__block">
+                    <div class="guarantees__guarantee guarantee">
+                        <div class="guarantee__title">
+                            <h4>Прозрачность процесса</h4>
+                        </div>
+                        <div class="guarantee__text">
+                            <p>
+                                Принятие необходимых мер для анализа и заключения экспертизы. Иногда достаточно
+                                небольшого аудита компании для стабилизации защиты системы.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="guarantees__risk risk">
+                        <div class="risk__title">
+                            <h4>
+                                Скрытые наценки
+                            </h4>
+                        </div>
+                        <div class="risk__text">
+                            <p>Принятие излишних мер в силу непонимания происхождения уязвимости. Проведение повторного
+                                тестирования после устранения уязвимостей и завершения мероприятий по защите систем.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contacts" class="contacts__block-title block-title">
+            <h2>Напишите нам!</h2>
+        </div>
+
+        <div class="contacts">
+            <div class="contacts__container">
+                <form action="#" class="contacts__form">
+                    <div class="contacts__inputs-row">
+                        <input type="text" placeholder="Введите ваше имя">
+                        <input type="email" placeholder="E-mail">
+                        <input type="tel" placeholder="Номер телефона">
+                    </div>
+                    <div class="contacts__t-area-row">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Введите ваше сообщение"></textarea>
+                        <div class="contacts__submit">
+                            <button type="submit" class=" button form__button">Отправить</button>
+                            <p>Отправляя данные вы соглашаетесь
+                                на обработку персональных даннных</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <footer class="contacts__footer footer">
+                <div class="footer__container container">
+                    <div class="footer__logo logo">
+                        <img src="./img/Logo.svg" alt="logo">
+                        <h4>ООО «ЦБИС»</h4>
+                    </div>
+                    <div class="footer__copyrite">
+                        <p>
+                            Все права защищены &#169;
+                        </p>
+                        <p>
+                            2020 год
+                        </p>
+                    </div>
+
+                </div>
+
+            </footer>
+        </div>
+    </main>
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/script.js" async defer></script>
+
+</body>
+
+</html>

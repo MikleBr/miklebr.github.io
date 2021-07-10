@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Уютный</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/js/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/img/site-icon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/account-style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- header постоянно на странице-->
+
+    <header class="header" id="header">
+        <div class="header__container container">
+            <div class="header__logo logo">
+                <a href="/index.html"><img src="/img/logo.svg" alt="logo"></a>
+            </div>
+
+            <nav class="header__nav-bar nav-bar">
+                <div class="nav-bar__links">
+                    <a class="nav-bar__link" href="/about.html">О нас</a>
+                    <a class="nav-bar__link" href="/journal.html">Журнал</a>
+                    <a class="nav-bar__link" href="/delivery.html">Доставка и оплата</a>
+                    <a class="nav-bar__link" href="/pickup.html">Пункт самовывоза</a>
+                </div>
+            </nav>
+
+            <a href="/profile.html" class="header__profile-info profile-info">
+                <div class="profile-info__img">
+                    <img src="/img/profile__img.jpg" width="26px" height="26px" alt="profile__photo">
+                </div>
+                <div class="profile-info__name">
+                    <p>Руслан</p>
+                </div>
+            </a>
+
+            <a href="/profile-market.html" class="header__market market">
+                <div class="market__icon">
+                    <img src="/img/market-icon.svg" alt="market-icon">
+                </div>
+                <div class="market__total">
+                    <p>0 руб.</p>
+                </div>
+            </a>
+
+            <div class="header__contacts">
+                <div class="header-nav__phone-icon">
+                    <a href="tel:+89884443322"><img src="/img/phone-icon.svg" alt=""></a>
+                </div>
+                <div class="header__phone-num">
+                    <a href="tel:+89884443322">8 (988) 444-33-22</a>
+                </div>
+            </div>
+            <div class="header__mobile-block">
+
+                <div class="header__mobile-favorite">
+                    <a href="#"><img src="/img/favorite-icon.svg" alt=""></a>
+                </div>
+
+                <div class="header__modile-prifile">
+                    <a href="#"><img src="/img/profile-icon.svg" alt=""></a>
+                </div>
+                <div class="header__mobile-market">
+                    <a href="#"><img src="/img/market-icon--mobile.svg" alt="market-icon"></a>
+                </div>
+
+                <div class="header__burger burger">
+                    <input class="burger__checkbox" type="checkbox" />
+                    <span class="top-stick"></span>
+                    <span class="middle-stick"></span>
+                    <span class="bottom-stick"></span>
+
+                    <div class="burger-nav">
+                        <div class="burger-nav__container">
+                            <nav class="burger-nav__nav-bar nav-bar">
+                                <a class="nav-bar__link" href="/about.html">О нас</a>
+                                <a class="nav-bar__link" href="/journal.html">Журнал</a>
+                                <a class="nav-bar__link" href="/delivery.html">Доставка и оплата</a>
+                                <a class="nav-bar__link" href="/pickup.html">Пункт самовывоза</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- header end-->
+
+
+    <main class="order">
+        <!-- content here -->
+        <form action="#" class="order__container">
+            <div class="order__title">
+                <h2>Персональные данные</h2>
+            </div>
+            <div class="order__form">
+                <div class="order__input-block">
+                    <label for="name">Фамилия</label>
+                    <input type="text" name="s-name" id="" placeholder="">
+                </div>
+                <div class="order__input-block">
+                    <label for="name">Имя</label>
+                    <input type="text" name="name" id="" placeholder="">
+                </div>
+                <div class="order__input-block">
+                    <label for="name">Ваш E-mail</label>
+                    <input type="email" name="name" id="" placeholder="">
+                </div>
+                <div class="order__input-block">
+                    <label for="name">Телефон</label>
+                    <input type="tel" name="name" id="" placeholder=" ">
+                </div>
+            </div>
+            <div class="order__title">
+                <h2>Адрес доставки</h2>
+            </div>
+            <div class="order__form">
+                <div class="order__input-block">
+                    <label for="name">Населенный пункт</label>
+                    <input type="text" name="s-name" id="" placeholder="">
+                </div>
+                <div class="order__input-block">
+                    <label for="street">Населенный пункт</label>
+                    <input type="text" name="street" id="" placeholder="">
+                </div>
+                <div class="order__input-block order__input--small">
+                    <label for="house">Дом</label>
+                    <input type="text" name="house" id="" placeholder="">
+                </div>
+                <div class="order__input-block order__input--small">
+                    <label for="name">Корпус</label>
+                    <input type="text" name="name" id="" placeholder="">
+                </div>
+                <div class="order__input-block order__input--small">
+                    <label for="name">Подъезд</label>
+                    <input type="text" name="name" id="" placeholder="">
+                </div>
+                <div class="order__input-block order__input--small">
+                    <label for="name">Домофон</label>
+                    <input type="text" name="name" id="" placeholder="">
+                </div>
+
+                <div class="order__input-block order__input--small">
+                    <label for="name">Этаж</label>
+                    <input type="text" name="name" id="" placeholder="">
+                </div>
+                <div class="order__input-block order__input--small">
+                    <label for="name">Квартира/офис</label>
+                    <input type="text" name="name" id="" placeholder="">
+                </div>
+
+                <div class="order__half-inputs--empty-block"></div>
+            </div>
+
+            <div class="order__title">
+                <h2>Способ доставки</h2>
+            </div>
+
+            <div class="order__checkbox-block">
+                <input type="radio" name="delivery" id="d-radio-1" checked>
+                <input type="radio" name="delivery" id="d-radio-2">
+                <input type="radio" name="delivery" id="d-radio-3">
+
+                <div class="order__label d-label d-label-1">
+                    <label for="d-radio-1"></label>
+                    <div class="d-label__container">
+                        <div class="d-label__title">
+                            <div class="d-label__name">
+                                <h3>Самовызов</h3>
+                            </div>
+                            <div class="d-label__price">
+                                <p>0 ₽</p>
+                            </div>
+                        </div>
+                        <div class="d-label__text">
+                            <p>Обработка заказа займет у нас некоторое время. Дождитесь смс-уведомления о его готовности
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="order__label d-label-2">
+                    <label for="d-radio-2"></label>
+                    <div class="d-label__container">
+                        <div class="d-label__title">
+                            <div class="d-label__name">
+                                <h3>DPD</h3>
+                            </div>
+                            <div class="d-label__price">
+                                <p>0 ₽</p>
+                            </div>
+                        </div>
+                        <div class="d-label__text">
+                            <p>от 3 до 12 дней
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="order__label d-label-3">
+                    <label for="d-radio-3"></label>
+                    <div class="d-label__container">
+                        <div class="d-label__title">
+                            <div class="d-label__name">
+                                <h3>Курьер</h3>
+                            </div>
+                            <div class="d-label__price">
+                                <p>0 ₽</p>
+                            </div>
+                        </div>
+                        <div class="d-label__text">
+                            <p>от 1 до 2 дней
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order__title">
+                <h2>Веберите магазин</h2>
+            </div>
+
+            <div class="order__checkbox-block">
+                <input type="radio" name="market" id="m-radio-1" checked>
+                <input type="radio" name="market" id="m-radio-2">
+                <input type="radio" name="market" id="m-radio-3">
+
+                <div class="order__label m-label m-label-1">
+                    <label for="m-radio-1"></label>
+                    <div class="m-label__container">
+                        <div class="m-label__title">
+                            <div class="m-label__name">
+                                <h3>Уютный</h3>
+                            </div>
+                        </div>
+                        <div class="m-label__text">
+                            <p>Ярагского, 92
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="order__label m-label m-label-2">
+                    <label for="m-radio-2"></label>
+                    <div class="m-label__container">
+                        <div class="m-label__title">
+                            <div class="m-label__name">
+                                <h3>Уютный</h3>
+                            </div>
+                        </div>
+                        <div class="m-label__text">
+                            <p>Коркмасова, 12
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="order__label m-label m-label-3">
+                    <label for="m-radio-3"></label>
+                    <div class="m-label__container">
+                        <div class="m-label__title">
+                            <div class="m-label__name">
+                                <h3>Уютный</h3>
+                            </div>
+                        </div>
+                        <div class="m-label__text">
+                            <p>Магомедова, 16
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order__title">
+                <h2>Оплата</h2>
+            </div>
+
+            <div class="order__checkbox-block">
+                <input type="radio" name="pay" id="p-radio-1" checked>
+                <input type="radio" name="pay" id="p-radio-2">
+
+                <div class="order__label p-label p-label-1">
+                    <label for="p-radio-1"></label>
+                    <div class="p-label__container">
+                        <div class="p-label__title">
+                            <div class="p-label__name">
+                                <h3>Наличными курьеру</h3>
+                            </div>
+                        </div>
+                        <div class="p-label__text">
+                            <p>Оплата заказа при получении
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="order__label p-label p-label-2">
+                    <label for="p-radio-2"></label>
+                    <div class="p-label__container">
+                        <div class="p-label__title">
+                            <div class="p-label__name">
+                                <h3>Оплата картой</h3>
+                            </div>
+                        </div>
+                        <div class="p-label__text">
+                            <p>VISA, MASTERCARD, MAESTRO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order__title">
+                <h2>Информаци о заказе</h2>
+            </div>
+
+            <div class="order__info-block info-block">
+                <div class="info-block__container">
+                    <div class="info-block__product">
+                        <div class="info-block__product-name">
+                            <p>Товар</p>
+                        </div>
+                        <div class="info-block__dots-block"></div>
+
+                        <div class="info-block__product-price">
+                            <p>25 482<span class="ruble"> &#8381;</span></p>
+                        </div>
+                    </div>
+                    <div class="info-block__product">
+                        <div class="info-block__product-name">
+                            <p>Дополнительные услуги</p>
+                        </div>
+                        <div class="info-block__dots-block"></div>
+                        <div class="info-block__product-price">
+                            <p>0<span class="ruble"> &#8381;</span></p>
+                        </div>
+                    </div>
+                    <div class="info-block__total">
+                        <p>К оплате</p>
+                        <div class="info-block__dots-block"></div>
+                        <p>25 482<span class="ruble"> &#8381;</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="order__submit-btn-block">
+                <button onclick="BuyPopUp_Show();">Перейти к оплате</button>
+            </div>
+
+            <div id="pop-up-sum" class="pop-up-sum">
+                <div class="pop-up-sum__container">
+                    <button class="pop-up-sum__close-btn" onclick="BuyPopUp_Hide();"><img src="/img/close-icon.svg" alt=""></button>
+                    
+                    <div class="pop-up-sum__title">
+                        <h3>Сумма к оплате: 30 000₽</h3>
+                    </div>
+                    <div class="pop-up-sum__pay-btn">
+                        <button>Оплатить</button>
+                    </div>
+                    <div class="pop-up-sum__pay-text">
+                        <p>Вы будете перенаправлены на страницу оплаты</p>
+                    </div>
+                    <div class="pop-up-sum__warning-text">
+                        <p> Обратите внимание: если вы откажитесь от покупки, для вовзрата денег вам придется обратиться
+                            в
+                            магазин.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </form>
+
+
+        <!-- end of content -->
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="footer__container container">
+            <div class="footer__row first-row">
+                <div class="footer__logo">
+                    <img src="/img/logo.svg" alt="">
+                </div>
+                <div class="first-row__links">
+                    <a href="/policy.html">Политика конфиденциальности</a>
+                    <a href="#">Пользовательское соглашение</a>
+                </div>
+            </div>
+            <div class="footer__row footer__links">
+                <a href="/about.html">О нас</a>
+                <a href="/journal.html">Журнал</a>
+                <a href="/delivery.html">Доставка и оплата</a>
+                <a href="/pickup.html">Пункт самовывоза</a>
+            </div>
+            <div class="footer__row footer__info">
+                <p>ИП Даудов Арслан</p>
+                <p>ИНН: 323324342342</p>
+                <p>РС: 2312213123132213231</p>
+                <div class="footer__inst-link"><img src="/img/instagram-icon.svg" width="18px" height="18px" alt="">
+                    <a>@uyutniy_dom</a>
+                </div>
+
+            </div>
+            <div class="footer__row footer__payment">
+                <div class="footer__card-block">
+                    <img src="/img/mastercard-icon.svg" alt="">
+                    <img src="/img/visa-icon.png" alt="">
+                </div>
+
+                <div class="footer__production">
+                    <img src="/img/highland.png" alt="">
+                    <h3>Сделано <br>
+                        в дизайн-заводе <br>
+                        Highland</h3>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
